@@ -1,0 +1,10 @@
+source_id,subject,publisher,year,source_url,lookup_status_2026_11_19,deployment_status
+IDN-PP16-2021,Indonesia building regulations,Government of Indonesia,2021,https://peraturan.bpk.go.id/Details/161846/pp-no-16-tahun-2021,PUBLIC_LISTING_CONFIRMED,LOCAL_APPLICABILITY_UNVERIFIED
+IDN-SNI1726-2019,Earthquake structural design,Badan Standardisasi Nasional,2019,https://pesta.bsn.go.id/produk/index/219,CATALOGUE_LISTED,DESIGN_APPLICATION_UNVERIFIED
+IDN-SNI1727-2020,Minimum design loads,Badan Standardisasi Nasional,2020,https://pesta.bsn.go.id/produk/index/219,CATALOGUE_LISTED,DESIGN_APPLICATION_UNVERIFIED
+PH-PD1096,National Building Code,Philippines government,1977,https://ldr.senate.gov.ph/legislative%2Bissuances/Presidential%20Decree%20No.%201096%2C%20s.%201977,OFFICIAL_TEXT_LISTED,LOCAL_PERMIT_UNVERIFIED
+IDN-INARISK,National disaster hazard mapping,BNPB,n.d.,https://inarisk.bnpb.go.id/,OFFICIAL_PORTAL_LISTED,SITE_RESOLUTION_PENDING
+UNDRR-BBB-2017,Build Back Better recovery,UNDRR,2017,https://www.undrr.org/publication/words-action-guidelines-build-back-better-recovery-rehabilitation-and-reconstruction,GUIDANCE_CONFIRMED,NOT_ENGINEERING_CODE
+SPHERE-2018,Humanitarian shelter standards,Sphere Association,2018,https://spherestandards.org/handbook-2018/,GUIDANCE_CONFIRMED,NOT_ENGINEERING_CODE
+NIST-AI100-1,AI risk governance,NIST,2023,https://doi.org/10.6028/NIST.AI.100-1,FRAMEWORK_CONFIRMED,VOLUNTARY_NOT_CERTIFICATION
+OWASP-LLM2025,LLM application security risks,OWASP,2025,https://genai.owasp.org/llm-top-10/,GUIDANCE_CONFIRMED,TEST_SUITE_NOT_SECURITY_AUDIT

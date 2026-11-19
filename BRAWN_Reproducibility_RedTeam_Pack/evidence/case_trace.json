@@ -1,0 +1,27 @@
+{
+  "case_id": "IDN-ACEH-DEMO-001",
+  "input_hash": "75443ddd2f62f21cd50dadba64e6cdb9fb033f44763f6d9b7f43fc24b3f2c3ce",
+  "origin": "MOCK_VERIFIED_UNIT_TEST_ONLY",
+  "workflow_labels_not_executed_agents": [
+    "intake",
+    "image_provenance",
+    "geolocation",
+    "brain_handoff",
+    "constraints",
+    "concept",
+    "independent_review",
+    "pep",
+    "registry"
+  ],
+  "executed_agent_decision": {
+    "agent_id": "B37",
+    "actor_role": "orchestrator",
+    "requested_action": "release_design",
+    "result": "DENY",
+    "reason": "ROLE"
+  },
+  "status": "HUMAN_REVIEW",
+  "policy_version": "brawn-pep-1.1.0",
+  "design": "CONCEPT_ONLY_NOT_ENGINEERING_CERTIFICATE",
+  "limitation": "No specialised LLM/engineer was dispatched; authority and evidence are mock fixtures."
+}

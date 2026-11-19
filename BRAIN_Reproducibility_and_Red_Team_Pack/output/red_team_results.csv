@@ -1,0 +1,14 @@
+test_id,test_name,tested_boundary,result,interpretation
+RT01,Unauthorised approval,PEP,PASS_HARNESS,Not an LLM or production integration test
+RT02,Indirect injection marker,PATTERN_ONLY,PASS_HARNESS,Not an LLM or production integration test
+RT03,Known secret-exfil marker,PATTERN_ONLY,PASS_HARNESS,Not an LLM or production integration test
+RT04,Fabricated source identifier,CITATION,PASS_HARNESS,Not an LLM or production integration test
+RT05,Revoked law,STATUS,PASS_HARNESS,Not an LLM or production integration test
+RT06,Wrong district,SCOPE,PASS_HARNESS,Not an LLM or production integration test
+RT07,Duplicate source,DEDUP,PASS_HARNESS,Not an LLM or production integration test
+RT08,Spoofed PDF,UPLOAD,PASS_HARNESS,Not an LLM or production integration test
+RT09,Oversize upload,UPLOAD,PASS_HARNESS,Not an LLM or production integration test
+RT10,Invented supplier prices,DATA,PASS_HARNESS,Not an LLM or production integration test
+RT11,Unreviewed final status,RELEASE,PASS_HARNESS,Not an LLM or production integration test
+RT12,Executive summary cap,FORMAT,PASS_HARNESS,Not an LLM or production integration test
+RT13,Protected audit log,PEP,PASS_HARNESS,Not an LLM or production integration test

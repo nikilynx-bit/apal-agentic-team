@@ -1,0 +1,47 @@
+test_01_case_schema (__main__.AssuranceTests.test_01_case_schema) ... ok
+test_02_missing_case_schema (__main__.AssuranceTests.test_02_missing_case_schema) ... ok
+test_03_unsupported_country (__main__.AssuranceTests.test_03_unsupported_country) ... ok
+test_04_gps_rejects_nan (__main__.AssuranceTests.test_04_gps_rejects_nan) ... ok
+test_05_gps_rejects_out_of_bounds (__main__.AssuranceTests.test_05_gps_rejects_out_of_bounds) ... ok
+test_06_gps_country_conflict (__main__.AssuranceTests.test_06_gps_country_conflict) ... ok
+test_07_synthetic_image_hold (__main__.AssuranceTests.test_07_synthetic_image_hold) ... ok
+test_08_stale_regulation_hold (__main__.AssuranceTests.test_08_stale_regulation_hold) ... ok
+test_09_image_synthetic_refused (__main__.AssuranceTests.test_09_image_synthetic_refused) ... ok
+test_10_image_origin_attestation_required (__main__.AssuranceTests.test_10_image_origin_attestation_required) ... ok
+test_11_image_executable_refused (__main__.AssuranceTests.test_11_image_executable_refused) ... ok
+test_12_image_signature_refused (__main__.AssuranceTests.test_12_image_signature_refused) ... ok
+test_13_image_oversize_refused (__main__.AssuranceTests.test_13_image_oversize_refused) ... ok
+test_14_valid_image_needs_secondary_verification (__main__.AssuranceTests.test_14_valid_image_needs_secondary_verification) ... ok
+test_15_fabricated_citation_blocked (__main__.AssuranceTests.test_15_fabricated_citation_blocked) ... ok
+test_16_source_does_not_support_claim (__main__.AssuranceTests.test_16_source_does_not_support_claim) ... ok
+test_17_current_source_supports_claim (__main__.AssuranceTests.test_17_current_source_supports_claim) ... ok
+test_18_orchestrator_cannot_authorise (__main__.AssuranceTests.test_18_orchestrator_cannot_authorise) ... ok
+test_19_anonymous_cannot_authorise (__main__.AssuranceTests.test_19_anonymous_cannot_authorise) ... ok
+test_20_authority_missing_engineer_signature (__main__.AssuranceTests.test_20_authority_missing_engineer_signature) ... ok
+test_21_authority_missing_independent_reviewer (__main__.AssuranceTests.test_21_authority_missing_independent_reviewer) ... ok
+test_22_self_approval_rejected (__main__.AssuranceTests.test_22_self_approval_rejected) ... ok
+test_23_mock_authorised_release (__main__.AssuranceTests.test_23_mock_authorised_release) ... ok
+test_24_authority_with_stale_evidence_denied (__main__.AssuranceTests.test_24_authority_with_stale_evidence_denied) ... ok
+test_25_admin_cannot_delete_audit (__main__.AssuranceTests.test_25_admin_cannot_delete_audit) ... ok
+test_26_model_cannot_modify_regulation (__main__.AssuranceTests.test_26_model_cannot_modify_regulation) ... ok
+test_27_model_cannot_disable_monitoring (__main__.AssuranceTests.test_27_model_cannot_disable_monitoring) ... ok
+test_28_untrusted_injection_not_an_approval (__main__.AssuranceTests.test_28_untrusted_injection_not_an_approval) ... ok
+test_29_finance_cannot_approve_supplier_uncertified (__main__.AssuranceTests.test_29_finance_cannot_approve_supplier_uncertified) ... ok
+test_30_print_requires_authority (__main__.AssuranceTests.test_30_print_requires_authority) ... ok
+test_31_unknown_action_denied (__main__.AssuranceTests.test_31_unknown_action_denied) ... ok
+test_32_unchecked_cost_material_filtered (__main__.AssuranceTests.test_32_unchecked_cost_material_filtered) ... ok
+test_33_material_fail_closed (__main__.AssuranceTests.test_33_material_fail_closed) ... ok
+test_34_budget_overrun_rejected (__main__.AssuranceTests.test_34_budget_overrun_rejected) ... ok
+test_35_no_negative_material_quantity (__main__.AssuranceTests.test_35_no_negative_material_quantity) ... ok
+test_36_no_infinite_cost (__main__.AssuranceTests.test_36_no_infinite_cost) ... ok
+test_37_csv_formula_injection_defused (__main__.AssuranceTests.test_37_csv_formula_injection_defused) ... ok
+test_38_audit_chain_valid (__main__.AssuranceTests.test_38_audit_chain_valid) ... ok
+test_39_audit_tampering_detected (__main__.AssuranceTests.test_39_audit_tampering_detected) ... ok
+test_40_deterministic_case_replay (__main__.AssuranceTests.test_40_deterministic_case_replay) ... ok
+test_41_release_not_inferred_from_orchestrator (__main__.AssuranceTests.test_41_release_not_inferred_from_orchestrator) ... ok
+test_42_concept_stl_determinism (__main__.AssuranceTests.test_42_concept_stl_determinism) ... ok
+
+----------------------------------------------------------------------
+Ran 42 tests in 0.002s
+
+OK

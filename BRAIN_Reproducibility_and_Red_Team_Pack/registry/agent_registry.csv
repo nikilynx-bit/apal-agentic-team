@@ -1,0 +1,33 @@
+agent_id,department,command,role,input_contract,output_contract,permissions_boundary,human_gate,deployment_status
+BR-01,Executive & decision,/orchestrate,Chief Orchestrator,case specification,workflow manifest; tasks,read workflow/write tickets,G0-G5,SPECIFIED_LOGICAL_ROLE; NOT VERIFIED LIVE
+BR-02,Executive & decision,/authority,Authority Liaison,approval request,approval queue,route only; cannot approve,G5,SPECIFIED_LOGICAL_ROLE; NOT VERIFIED LIVE
+BR-03,Executive & decision,/route,Task Router,user intent,typed task plan,read scope/write tickets,G0,SPECIFIED_LOGICAL_ROLE; NOT VERIFIED LIVE
+BR-04,Executive & decision,/brief,Decision Brief Editor,verified findings,one-page brief,write draft only,G4,SPECIFIED_LOGICAL_ROLE; NOT VERIFIED LIVE
+BR-05,Regulatory & evidence,/jurisdiction,Jurisdiction Resolver,address; district,scope hierarchy,read geocoder metadata,G1,SPECIFIED_LOGICAL_ROLE; NOT VERIFIED LIVE
+BR-06,Regulatory & evidence,/discover,Official Source Locator,country; topic,candidate URLs,read allowlisted portals,G1,SPECIFIED_LOGICAL_ROLE; NOT VERIFIED LIVE
+BR-07,Regulatory & evidence,/status,Legal Status Verifier,source IDs,amendment and force report,read official legal metadata,G1,SPECIFIED_LOGICAL_ROLE; NOT VERIFIED LIVE
+BR-08,Regulatory & evidence,/standards,Standards Cataloguer,engineering topic,standards crosswalk,read standards catalogue,G1,SPECIFIED_LOGICAL_ROLE; NOT VERIFIED LIVE
+BR-09,Regulatory & evidence,/parse,Safe PDF/DOCX Ingestor,approved documents,page-specific extracts,quarantined parse only,G0,SPECIFIED_LOGICAL_ROLE; NOT VERIFIED LIVE
+BR-10,Regulatory & evidence,/translate,Language and Translation Reviewer,verified text,side-by-side glossary,read excerpt; no overwrite,G2,SPECIFIED_LOGICAL_ROLE; NOT VERIFIED LIVE
+BR-11,Regulatory & evidence,/check,Citation Verifier,claim and paragraph,support/contradiction flag,read source; no fabricate,G2,SPECIFIED_LOGICAL_ROLE; NOT VERIFIED LIVE
+BR-12,Regulatory & evidence,/dedupe,Duplicate Detector,files and URLs,canonical source IDs,read hashes/write index,G1,SPECIFIED_LOGICAL_ROLE; NOT VERIFIED LIVE
+BR-13,Regulatory & evidence,/refresh,Change Monitor,verified source register,diff; recheck queue,read scheduled metadata,G1,SPECIFIED_LOGICAL_ROLE; NOT VERIFIED LIVE
+BR-14,Regulatory & evidence,/grade,Evidence Grader,sources and conflicts,evidence tiers,read provenance/write grades,G2,SPECIFIED_LOGICAL_ROLE; NOT VERIFIED LIVE
+BR-15,Reconstruction & analysis,/hazard,Hazard Evidence Mapper,official hazard links,unverified hazard gaps,read official maps only,G3,SPECIFIED_LOGICAL_ROLE; NOT VERIFIED LIVE
+BR-16,Reconstruction & analysis,/material,Material Requirements Analyst,design BOM; standards,applicability matrix,read BOM/write draft,G3,SPECIFIED_LOGICAL_ROLE; NOT VERIFIED LIVE
+BR-17,Reconstruction & analysis,/procure,Procurement Evidence Analyst,procurement rules,procurement requirements,read tender metadata,G3,SPECIFIED_LOGICAL_ROLE; NOT VERIFIED LIVE
+BR-18,Reconstruction & analysis,/suppliers,Local Supplier Coverage Analyst,public supplier leads,coverage bias note,public data; no contracts,G3,SPECIFIED_LOGICAL_ROLE; NOT VERIFIED LIVE
+BR-19,Reconstruction & analysis,/compare,Regulatory Comparator,scoped verified documents,differences and caveats,read citations/write comparisons,G2,SPECIFIED_LOGICAL_ROLE; NOT VERIFIED LIVE
+BR-20,Reconstruction & analysis,/economics,CBA Scoping Analyst,quotes and time inputs,assumption ledger,no invented prices,G3,SPECIFIED_LOGICAL_ROLE; NOT VERIFIED LIVE
+BR-21,Reconstruction & analysis,/network,Knowledge Graph Curator,claim-source-stakeholder IDs,nodes; evidence edges,write sourced graph only,G2,SPECIFIED_LOGICAL_ROLE; NOT VERIFIED LIVE
+BR-22,Reconstruction & analysis,/stakeholders,Stakeholder Mapper,public roles; local input,inclusion consultation map,no private contact collection,G3,SPECIFIED_LOGICAL_ROLE; NOT VERIFIED LIVE
+BR-23,Reconstruction & analysis,/checklist,Self-Assessment Guide,validated requirements,evidence checklist,draft; not certification,G3,SPECIFIED_LOGICAL_ROLE; NOT VERIFIED LIVE
+BR-24,Reconstruction & analysis,/brawn,BRAWN Interface Adapter,validated requirements,structured design constraints,propose; no CAD certification,G3,SPECIFIED_LOGICAL_ROLE; NOT VERIFIED LIVE
+BR-25,"Operations, outliers & security",/intake,Input Gatekeeper,attachments; prompt,allow/reject/quarantine,file metadata only,G0,SPECIFIED_LOGICAL_ROLE; NOT VERIFIED LIVE
+BR-26,"Operations, outliers & security",/screen,Injection Threat Screener,untrusted text,injection event,flag only; no privileged tools,G0,SPECIFIED_LOGICAL_ROLE; NOT VERIFIED LIVE
+BR-27,"Operations, outliers & security",/pep,Policy Enforcement Point,tool request; actor role,ALLOW/DENY decision,backend permission enforcement,G4,SPECIFIED_LOGICAL_ROLE; NOT VERIFIED LIVE
+BR-28,"Operations, outliers & security",/privacy,Privacy and Security Monitor,sanitised audit stream,incident ticket,log metadata; minimize PII,G4,SPECIFIED_LOGICAL_ROLE; NOT VERIFIED LIVE
+BR-29,"Operations, outliers & security",/outlier,Outlier and Scope Triage,out-of-domain prompt,redirect/refuse and reason,no scope expansion,G0,SPECIFIED_LOGICAL_ROLE; NOT VERIFIED LIVE
+BR-30,"Operations, outliers & security",/redteam,Red-Team Evaluator,test case; expected result,security test report,test-only; cannot release,G4,SPECIFIED_LOGICAL_ROLE; NOT VERIFIED LIVE
+BR-31,"Operations, outliers & security",/replay,Run Recorder and Reproducer,version; fixture; seed,manifest and full trace,write append-only records,G4,SPECIFIED_LOGICAL_ROLE; NOT VERIFIED LIVE
+BR-32,"Operations, outliers & security",/errors,Error and Drift Sentinel,metrics; failures,error register; alert,alert only; cannot retrain,G4,SPECIFIED_LOGICAL_ROLE; NOT VERIFIED LIVE

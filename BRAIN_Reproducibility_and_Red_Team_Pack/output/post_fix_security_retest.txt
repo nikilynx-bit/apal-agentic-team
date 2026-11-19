@@ -1,0 +1,4 @@
+AFTER FIX:  (False, 'PROTECTED_APPEND_ONLY_LOG')
+AFTER FIX:  (False, 'PROTECTED_APPEND_ONLY_LOG')
+EXPECTED:   DENY for every actor, even authority with approval
+RESULT: PASS function-level regression; live store not tested

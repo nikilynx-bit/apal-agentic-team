@@ -1,0 +1,43 @@
+agent_id,department,role,inputs,outputs,command,human_gate,tools,agent_policy_version,runtime_status
+SENT,Chief Architect Orchestration,Chief Architect Orchestrator,"case_request,approved_packets","delegation_plan,hold_status",/route,G1-G5,route_only,1.1.0,LOGICAL_ROLE_ONLY
+B01,Site and Community Intelligence,Case Intake and Triage,"photo,request,case_id",intake_record,/intake,G1,schema_scoped_no_privileged_writes,1.1.0,SPECIFIED_NOT_DEPLOYED
+B02,Site and Community Intelligence,Geospatial Registration,"WGS84 location,site_id",geolocation_record,/geotag,G1,schema_scoped_no_privileged_writes,1.1.0,SPECIFIED_NOT_DEPLOYED
+B03,Site and Community Intelligence,Image Provenance Triage,"photo,metadata,attestation",photo_evidence_state,/photo-check,G1,schema_scoped_no_privileged_writes,1.1.0,SPECIFIED_NOT_DEPLOYED
+B04,Site and Community Intelligence,Historical Image Matching,"photo,licensed_reference",candidate_reference_matches,/historical,G1,schema_scoped_no_privileged_writes,1.1.0,SPECIFIED_NOT_DEPLOYED
+B05,Site and Community Intelligence,Damage Pattern Triage,"observed_photos,inspection_notes",damage_hypothesis,/damage,G1,schema_scoped_no_privileged_writes,1.1.0,SPECIFIED_NOT_DEPLOYED
+B06,Site and Community Intelligence,Community Livelihood Requirements,"consultation,needs_register",livelihood_requirements,/community,G1,schema_scoped_no_privileged_writes,1.1.0,SPECIFIED_NOT_DEPLOYED
+B07,Site and Community Intelligence,Evidence Provenance and Consent,"source_records,permissions",evidence_ledger,/provenance,G1,schema_scoped_no_privileged_writes,1.1.0,SPECIFIED_NOT_DEPLOYED
+B08,Regulatory and Hazard Handoff,BRAIN Evidence Adapter,brain_regulatory_packet,source_constraint_handoff,/brain-import,G2,schema_scoped_no_privileged_writes,1.1.0,SPECIFIED_NOT_DEPLOYED
+B09,Regulatory and Hazard Handoff,Jurisdiction and Locality Resolver,"coordinates,jurisdiction",applicability_scope,/jurisdiction,G2,schema_scoped_no_privileged_writes,1.1.0,SPECIFIED_NOT_DEPLOYED
+B10,Regulatory and Hazard Handoff,Regulatory Currency Checker,"source_ids,authority_date",currency_flags,/currency,G2,schema_scoped_no_privileged_writes,1.1.0,SPECIFIED_NOT_DEPLOYED
+B11,Regulatory and Hazard Handoff,Permits and Land Tenure,"land_records,permits",permit_gap_record,/permits,G2,schema_scoped_no_privileged_writes,1.1.0,SPECIFIED_NOT_DEPLOYED
+B12,Regulatory and Hazard Handoff,Hazard Zoning and Setbacks,official_hazard_layers,site_restriction_summary,/hazards,G2,schema_scoped_no_privileged_writes,1.1.0,SPECIFIED_NOT_DEPLOYED
+B13,Regulatory and Hazard Handoff,Design Constraints Translator,approved_regulatory_extract,engineering_constraint_matrix,/constraints,G2,schema_scoped_no_privileged_writes,1.1.0,SPECIFIED_NOT_DEPLOYED
+B14,Regulatory and Hazard Handoff,Conflicting Evidence Escalation,conflicting_sources,disagreement_ticket,/conflicts,G2,schema_scoped_no_privileged_writes,1.1.0,SPECIFIED_NOT_DEPLOYED
+B15,Architectural and Engineering Concepts,Concept Massing Architect,site_requirements,design_options,/massing,G3,schema_scoped_no_privileged_writes,1.1.0,SPECIFIED_NOT_DEPLOYED
+B16,Architectural and Engineering Concepts,Flood Elevation Concept,"flood_evidence,site_survey",elevation_options,/flood,G3,schema_scoped_no_privileged_writes,1.1.0,SPECIFIED_NOT_DEPLOYED
+B17,Architectural and Engineering Concepts,Wind and Storm Concept,"wind_hazard,geometry",wind_risk_issues,/wind,G3,schema_scoped_no_privileged_writes,1.1.0,SPECIFIED_NOT_DEPLOYED
+B18,Architectural and Engineering Concepts,Seismic Concept Reviewer,"seismic_hazard,structural_type",seismic_risk_issues,/seismic,G3,schema_scoped_no_privileged_writes,1.1.0,SPECIFIED_NOT_DEPLOYED
+B19,Architectural and Engineering Concepts,Foundation and Soil Evidence,"soil_report,groundwater",foundation_open_questions,/foundation,G3,schema_scoped_no_privileged_writes,1.1.0,SPECIFIED_NOT_DEPLOYED
+B20,Architectural and Engineering Concepts,Load Path and Connections,"concept,material_properties",connection_checklist,/loadpath,G3,schema_scoped_no_privileged_writes,1.1.0,SPECIFIED_NOT_DEPLOYED
+B21,Architectural and Engineering Concepts,Cross-Bracing and Ductility Options,frame_typology,bracing_options,/bracing,G3,schema_scoped_no_privileged_writes,1.1.0,SPECIFIED_NOT_DEPLOYED
+B22,Architectural and Engineering Concepts,Accessibility and Inclusive Design,"user_needs,site_constraints",inclusive_access_options,/access,G3,schema_scoped_no_privileged_writes,1.1.0,SPECIFIED_NOT_DEPLOYED
+B23,Architectural and Engineering Concepts,Climate Comfort and Livelihood,"thermal_context,livelihood_needs",comfort_livelihood_options,/livelihood,G3,schema_scoped_no_privileged_writes,1.1.0,SPECIFIED_NOT_DEPLOYED
+B24,Materials and Procurement Integrity,Materials Specification Checker,"specifications,standards",material_conformance_matrix,/materials,G4,schema_scoped_no_privileged_writes,1.1.0,SPECIFIED_NOT_DEPLOYED
+B25,Materials and Procurement Integrity,Quantities and Cost Estimator,"bill_of_materials,unit_prices",budget_envelope,/takeoff,G4,schema_scoped_no_privileged_writes,1.1.0,SPECIFIED_NOT_DEPLOYED
+B26,Materials and Procurement Integrity,Supplier Discovery and Verification,supplier_registry,supplier_shortlist,/suppliers,G4,schema_scoped_no_privileged_writes,1.1.0,SPECIFIED_NOT_DEPLOYED
+B27,Materials and Procurement Integrity,Counterfeit and Quality Assurance,"certificates,inspection",qc_holds,/quality,G4,schema_scoped_no_privileged_writes,1.1.0,SPECIFIED_NOT_DEPLOYED
+B28,Materials and Procurement Integrity,Lifecycle Cost Comparator,"capital,maintenance,uncertainty",lifecycle_scenarios,/lifecycle,G4,schema_scoped_no_privileged_writes,1.1.0,SPECIFIED_NOT_DEPLOYED
+B29,Materials and Procurement Integrity,Circularity and Local Sourcing,"material_options,local_capacity",circularity_tradeoffs,/circular,G4,schema_scoped_no_privileged_writes,1.1.0,SPECIFIED_NOT_DEPLOYED
+B30,Fabrication and Digital Registry,Parametric Geometry Builder,approved_concept_parameters,concept_3d_mesh,/geometry,G3,schema_scoped_no_privileged_writes,1.1.0,SPECIFIED_NOT_DEPLOYED
+B31,Fabrication and Digital Registry,STL and 3MF Concept Exporter,"geometry,unit_scale",concept_artifact,/export-concept,G5,schema_scoped_no_privileged_writes,1.1.0,SPECIFIED_NOT_DEPLOYED
+B32,Fabrication and Digital Registry,Printability and Mesh QA,"mesh,printer_limits",printability_flags,/mesh-qc,G5,schema_scoped_no_privileged_writes,1.1.0,SPECIFIED_NOT_DEPLOYED
+B33,Fabrication and Digital Registry,Printer Queue Planner,"printer_registry,approval",blocked_or_queued_job,/printer-queue,G5,schema_scoped_no_privileged_writes,1.1.0,SPECIFIED_NOT_DEPLOYED
+B34,Fabrication and Digital Registry,GIS Building Registry Writer,"geolocation,design_version",asset_registry_entry,/registry,G5,schema_scoped_no_privileged_writes,1.1.0,SPECIFIED_NOT_DEPLOYED
+B35,Fabrication and Digital Registry,Digital Twin Version Controller,"model_hash,revision",version_history,/versions,G5,schema_scoped_no_privileged_writes,1.1.0,SPECIFIED_NOT_DEPLOYED
+B36,"Governance, Assurance and Reporting",Engineering Safety Gate,engineering_report,safety_release_hold,/safety,G3,schema_scoped_no_privileged_writes,1.1.0,SPECIFIED_NOT_DEPLOYED
+B37,"Governance, Assurance and Reporting",Policy Enforcement Point,"actor,action,signoffs",authorisation_decision,/pep,G5,schema_scoped_no_privileged_writes,1.1.0,SPECIFIED_NOT_DEPLOYED
+B38,"Governance, Assurance and Reporting",Independent Reviewer Router,"review_packages,assignees",signed_review_queue,/independent-review,G3,schema_scoped_no_privileged_writes,1.1.0,SPECIFIED_NOT_DEPLOYED
+B39,"Governance, Assurance and Reporting",Red-Team and Injection Examiner,"test_cases,source_text",adversarial_findings,/red-team,G5,schema_scoped_no_privileged_writes,1.1.0,SPECIFIED_NOT_DEPLOYED
+B40,"Governance, Assurance and Reporting",Audit and Incident Recorder,"action_events,errors",append_only_event_packet,/audit,G5,schema_scoped_no_privileged_writes,1.1.0,SPECIFIED_NOT_DEPLOYED
+B41,"Governance, Assurance and Reporting",Handoff and Policy Reporter,"complete_case,evidence",human_review_report,/report,G5,schema_scoped_no_privileged_writes,1.1.0,SPECIFIED_NOT_DEPLOYED

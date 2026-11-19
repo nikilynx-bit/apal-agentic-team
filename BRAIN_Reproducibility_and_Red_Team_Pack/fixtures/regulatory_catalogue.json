@@ -1,0 +1,62 @@
+[
+  {
+    "source_id": "ID-PP-16-2021",
+    "title": "Peraturan Pemerintah Nomor 16 Tahun 2021 tentang Peraturan Pelaksanaan UU 28/2002 tentang Bangunan Gedung",
+    "issuer": "Pemerintah Republik Indonesia",
+    "source_url": "https://jdih.pkp.go.id/produk-hukum/pp-16-2021",
+    "jurisdiction": "Indonesia",
+    "geographic_level": "national",
+    "document_kind": "regulation",
+    "issued_year": 2021,
+    "status": "in_force_metadata",
+    "evidence_scope": "official publication metadata and reported in-force status; not full-text legal interpretation",
+    "content_verified": false,
+    "language": "id",
+    "last_metadata_check": "2026-11-19"
+  },
+  {
+    "source_id": "ID-PP-36-2005",
+    "title": "Peraturan Pemerintah Nomor 36 Tahun 2005 tentang Pelaksanaan UU Bangunan Gedung",
+    "issuer": "Pemerintah Republik Indonesia",
+    "source_url": "https://peraturan.bpk.go.id/Details/161846/pp-no-16-tahun-2021",
+    "jurisdiction": "Indonesia",
+    "geographic_level": "national",
+    "document_kind": "regulation",
+    "issued_year": 2005,
+    "status": "superseded_by_PP_16_2021",
+    "evidence_scope": "supersession metadata from PP 16/2021 listing; not current law",
+    "content_verified": false,
+    "language": "id",
+    "last_metadata_check": "2026-11-19"
+  },
+  {
+    "source_id": "ID-SNI-1726-2019",
+    "title": "SNI 1726:2019 Tata cara perencanaan ketahanan gempa untuk struktur bangunan gedung dan nongedung",
+    "issuer": "Badan Standardisasi Nasional; cited in official Ministry of Public Works catalogue",
+    "source_url": "https://pu.go.id/pustaka/biblio/aplikasi-perencanaan-bangunan-gedung-bertingkat-tinggi-tahan-gempa-berdasarkan-sni-17262019/JD8872",
+    "jurisdiction": "Indonesia",
+    "geographic_level": "national",
+    "document_kind": "technical_standard_reference",
+    "issued_year": 2019,
+    "status": "catalogue_reference_only",
+    "evidence_scope": "standard identifier and title referenced by official PUPR catalogue; scope, full standard access and mandatory applicability require verification",
+    "content_verified": false,
+    "language": "id",
+    "last_metadata_check": "2026-11-19"
+  },
+  {
+    "source_id": "ID-ACEH-TENGAH-Q9-2015",
+    "title": "Qanun Kabupaten Aceh Tengah Nomor 9 Tahun 2015 tentang Bangunan Gedung",
+    "issuer": "Pemerintah Kabupaten Aceh Tengah",
+    "source_url": "https://jdih.acehprov.go.id/dih/detail/ff071627-4641-4e06-83da-74232f1c92d2",
+    "jurisdiction": "Aceh Tengah",
+    "geographic_level": "kabupaten",
+    "document_kind": "local_regulation",
+    "issued_year": 2015,
+    "status": "local_status_pending",
+    "evidence_scope": "official Aceh legal catalogue record; local applicability and amendments not independently confirmed",
+    "content_verified": false,
+    "language": "id",
+    "last_metadata_check": "2026-11-19"
+  }
+]

@@ -1,0 +1,51 @@
+{
+  "nodes": [
+    {
+      "id": "ACEH-PREFAB-001",
+      "type": "case",
+      "label": "Banda Aceh prefab proposal"
+    },
+    {
+      "id": "G1",
+      "type": "review_gate",
+      "label": "Evidence review"
+    },
+    {
+      "id": "G2",
+      "type": "review_gate",
+      "label": "Professional applicability review"
+    },
+    {
+      "id": "ID-PP-16-2021",
+      "type": "source",
+      "label": "Peraturan Pemerintah Nomor 16 Tahun 2021 tentang Peraturan P"
+    },
+    {
+      "id": "ID-SNI-1726-2019",
+      "type": "source",
+      "label": "SNI 1726:2019 Tata cara perencanaan ketahanan gempa untuk st"
+    }
+  ],
+  "edges": [
+    {
+      "source": "ACEH-PREFAB-001",
+      "target": "G1",
+      "relation": "requires"
+    },
+    {
+      "source": "G1",
+      "target": "G2",
+      "relation": "precedes"
+    },
+    {
+      "source": "ID-PP-16-2021",
+      "target": "G1",
+      "relation": "evidence_for"
+    },
+    {
+      "source": "ID-SNI-1726-2019",
+      "target": "G1",
+      "relation": "evidence_for"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "run_id": "BRAIN-FIXTURE-ACEH-001",
+  "case_id": "ACEH-PREFAB-001",
+  "policy_version": "BRAIN-POLICY-1.0.0",
+  "decision_status": "NOT_ESTABLISHED",
+  "release_status": "SANDBOX_EVIDENCE_TRIAGE_ONLY",
+  "finding": "National building regulatory framework identified. Technical standards must be checked for applicability; this record does not establish the proposed shelter is compliant.",
+  "admitted_evidence": [
+    {
+      "source_id": "ID-PP-16-2021",
+      "official_url": "https://jdih.pkp.go.id/produk-hukum/pp-16-2021",
+      "status": "in_force_metadata",
+      "claim_limit": "official publication metadata and reported in-force status; not full-text legal interpretation"
+    },
+    {
+      "source_id": "ID-SNI-1726-2019",
+      "official_url": "https://pu.go.id/pustaka/biblio/aplikasi-perencanaan-bangunan-gedung-bertingkat-tinggi-tahan-gempa-berdasarkan-sni-17262019/JD8872",
+      "status": "catalogue_reference_only",
+      "claim_limit": "standard identifier and title referenced by official PUPR catalogue; scope, full standard access and mandatory applicability require verification"
+    }
+  ],
+  "excluded_evidence": [
+    {
+      "source_id": "ID-PP-36-2005",
+      "reason": "SUPERSEDED_AUTHORITY"
+    },
+    {
+      "source_id": "ID-ACEH-TENGAH-Q9-2015",
+      "reason": "OUTSIDE_LOCAL_JURISDICTION"
+    }
+  ],
+  "missing_decision_inputs": [
+    "material_certificates",
+    "engineer_signed_design",
+    "site_hazard_assessment",
+    "supplier_quotes"
+  ],
+  "human_checkpoints": [
+    "Confirm current law and amendments with authorised Indonesian legal/technical officer",
+    "Obtain design and material certification from licensed engineer",
+    "Validate site-specific flood, wind and seismic hazards",
+    "Consult affected residents and local suppliers before procurement"
+  ],
+  "regulatory_coverage_claim": "FOUR_CURATED_FIXTURE_RECORDS; NOT 56 VERIFIED JURISDICTIONS",
+  "source_text_verified": false,
+  "operational_building_approval": false
+}

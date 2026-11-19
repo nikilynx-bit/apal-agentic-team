@@ -1,0 +1,5 @@
+run_id= BRAIN-FIXTURE-ACEH-001
+status= NOT_ESTABLISHED
+admitted= 2 excluded= 2
+audit_events= 4
+model= NONE: no LLM run

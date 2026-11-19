@@ -1,0 +1,25 @@
+test_agent_cannot_delete_audit (test_brain.TestRegulatoryAssurance.test_agent_cannot_delete_audit) ... ok
+test_authority_must_have_approval (test_brain.TestRegulatoryAssurance.test_authority_must_have_approval) ... ok
+test_authority_valid_approval (test_brain.TestRegulatoryAssurance.test_authority_valid_approval) ... ok
+test_bad_file_extension (test_brain.TestRegulatoryAssurance.test_bad_file_extension) ... ok
+test_decision_status_not_established (test_brain.TestRegulatoryAssurance.test_decision_status_not_established) ... ok
+test_fake_source_citation_blocked (test_brain.TestRegulatoryAssurance.test_fake_source_citation_blocked) ... ok
+test_identical_upload_deduplicated (test_brain.TestRegulatoryAssurance.test_identical_upload_deduplicated) ... ok
+test_indirect_injection_quarantined (test_brain.TestRegulatoryAssurance.test_indirect_injection_quarantined) ... ok
+test_legacy_duplication_reproduced (test_brain.TestRegulatoryAssurance.test_legacy_duplication_reproduced) ... ok
+test_no_56_jurisdiction_verification (test_brain.TestRegulatoryAssurance.test_no_56_jurisdiction_verification) ... ok
+test_no_synthetic_supplier_prices (test_brain.TestRegulatoryAssurance.test_no_synthetic_supplier_prices) ... ok
+test_oversized_upload_rejected (test_brain.TestRegulatoryAssurance.test_oversized_upload_rejected) ... ok
+test_replay_is_deterministic (test_brain.TestRegulatoryAssurance.test_replay_is_deterministic) ... ok
+test_spoofed_pdf_blocked (test_brain.TestRegulatoryAssurance.test_spoofed_pdf_blocked) ... ok
+test_statutory_approval_denied (test_brain.TestRegulatoryAssurance.test_statutory_approval_denied) ... ok
+test_summary_length_bounded (test_brain.TestRegulatoryAssurance.test_summary_length_bounded) ... ok
+test_superseded_law_excluded (test_brain.TestRegulatoryAssurance.test_superseded_law_excluded) ... ok
+test_untrusted_plain_text_not_authorized (test_brain.TestRegulatoryAssurance.test_untrusted_plain_text_not_authorized) ... ok
+test_unverified_content_cannot_prove_compliance (test_brain.TestRegulatoryAssurance.test_unverified_content_cannot_prove_compliance) ... ok
+test_wrong_kabupaten_law_excluded (test_brain.TestRegulatoryAssurance.test_wrong_kabupaten_law_excluded) ... ok
+
+----------------------------------------------------------------------
+Ran 20 tests in 0.001s
+
+OK

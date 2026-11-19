@@ -1,0 +1,12 @@
+field,type,rule,data_class
+case_id,string,unique case ID,synthetic
+country,enum,Indonesia or Philippines pilot,synthetic
+location.lat,float,finite -90 to 90; WGS84,synthetic
+location.lon,float,finite -180 to 180; WGS84,synthetic
+photo_state,enum,field verification mandatory for operational claims,synthetic
+evidence_state,enum,CURRENT_CONFIRMED required for consequential actions,synthetic
+design_state,enum,CONCEPT or ENGINEER_REVIEWED,synthetic
+source_ids,array[str],source register foreign keys,synthetic
+engineer_signed,bool,verified separate engineer identity,simulated approval
+reviewer_signed,bool,verified separate reviewer identity,simulated approval
+event_hash,sha256,hash chain for tamper evidence,test only

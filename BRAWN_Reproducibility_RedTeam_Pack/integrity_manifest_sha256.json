@@ -1,0 +1,118 @@
+{
+  "scope": "All captured source and evidence files except this manifest; file hashes for integrity checking, not digital signatures",
+  "file_count": 28,
+  "files": {
+    "HUMAN_GATE_CHECKLIST.md": {
+      "sha256": "8b1302d8b42e255de0fff797104f3b2e4bd96f7b8f00a56050e9796243efe453",
+      "bytes": 880
+    },
+    "README.md": {
+      "sha256": "44a424b4c3d026fd353dc808a8a4ef048c6ccc0863fd50d2451895b0d8d7e62a",
+      "bytes": 3505
+    },
+    "agent_team_registry.csv": {
+      "sha256": "edf83145830ab68659920f67ee410bb7c910961aa3952fedc62c5ccde3e61413",
+      "bytes": 8147
+    },
+    "agent_team_registry.json": {
+      "sha256": "c8f93a04b21778d852f807bac6fd3c5ceae8e7cb0a34d0103286ccc3632ca1d7",
+      "bytes": 16704
+    },
+    "agents_policy_prompts.md": {
+      "sha256": "11a2855989261d7e624966ffe885331e0a026ca413d9c06cb479b23a92e51656",
+      "bytes": 28044
+    },
+    "brawn_agent_organisation.dot": {
+      "sha256": "821f145743c292850f03907b8f25af7934d8c7dedbb7e47acc89ffbea6eb427a",
+      "bytes": 1157
+    },
+    "brawn_agent_organisation.png": {
+      "sha256": "4280230cd3e2b27d86a6394dc25267ae344c77c3aaf619a7329ef00f54c01815",
+      "bytes": 185285
+    },
+    "brawn_agent_organisation.svg": {
+      "sha256": "7868d5eed2889f53cb94de75aa215626390eea6abf1f880ab06b3aea9f9f82d1",
+      "bytes": 7702
+    },
+    "brawn_core.py": {
+      "sha256": "bb1dba4a5f91cc5cde5f73a9de883ea72e580777e3e639bc0122f75cd09a358e",
+      "bytes": 10675
+    },
+    "brawn_workflow.dot": {
+      "sha256": "d4e17701d7aebea8d51630e8cc57e0460b133f3023c77ca32cd7a1936482e714",
+      "bytes": 1204
+    },
+    "brawn_workflow.png": {
+      "sha256": "091ac4289e90594f4ec8c4cf3e3585ee33cc2a24560ee8e870af585e7b69ef75",
+      "bytes": 231218
+    },
+    "brawn_workflow.svg": {
+      "sha256": "fc39ff021568ee4ad287e2f0793d808871980959fa8a6f67bf781a7d0a767a3c",
+      "bytes": 8579
+    },
+    "case_aceh_synthetic.json": {
+      "sha256": "fdd90cabcbf9cd561c604bdda4170ac649648647831dbebfce9db66cba3d698c",
+      "bytes": 577
+    },
+    "case_data_dictionary.csv": {
+      "sha256": "e80b8df42f2dc132a58e44e3ceebd555d14a714890650131900a65d18dd06f8e",
+      "bytes": 732
+    },
+    "case_philippines_synthetic.json": {
+      "sha256": "074a000c7e4b507ec96b75305ac8a7ae8bf9d68197a7356812670b8bd23ba30e",
+      "bytes": 518
+    },
+    "evidence/audit_chain_verification.json": {
+      "sha256": "98c1ce613482e8819aa9a6f6f0cf0c37a9236203593f98b1cc6144523166bc9b",
+      "bytes": 95
+    },
+    "evidence/case_trace.json": {
+      "sha256": "436a92733b425b86165939b86f20f1e5ec0e76713228ffa0a95424932d6b7356",
+      "bytes": 783
+    },
+    "evidence/concept_stilt_house_UNVALIDATED.stl": {
+      "sha256": "1c8b59c979152e764aaf4ac4d5c37691e0bdc63802985c0d686f1c7ad617e445",
+      "bytes": 10787
+    },
+    "evidence/controlled_failure_retest.json": {
+      "sha256": "5d671980e90395fc8977df613ab6c2e28ca2b10f7fd438b1f891548385868f2d",
+      "bytes": 355
+    },
+    "evidence/pep_events.jsonl": {
+      "sha256": "11cb1a5bd1d92bc96dc4901ac103bfe98829f1fe6c4ee4cd3e1fb682a1753afd",
+      "bytes": 1966
+    },
+    "evidence/stl_manifest.json": {
+      "sha256": "2023aadf75ef4fd726addbbadfb1ae025711a64e30c2d8ef4e1b7bc5b868e27b",
+      "bytes": 224
+    },
+    "evidence/test_console.log": {
+      "sha256": "287008ba080f1bed79bf341090d94e8f1bf8a8f611ff163d34033c6dbb1f22ae",
+      "bytes": 4431
+    },
+    "evidence/test_results.jsonl": {
+      "sha256": "e168ddc27cfd1748493a5bba75d85908a4733df0a0497be07289b2d6ad350927",
+      "bytes": 8109
+    },
+    "evidence/test_summary.json": {
+      "sha256": "19fb21c6c24350e611bda9fa4b1bdd32f50110f4b8dc24920fe2ca0ca7548021",
+      "bytes": 277
+    },
+    "red_team_matrix.csv": {
+      "sha256": "b675fb62af7e051e9f23f7f039ef8684475a6e4dea32bcb43125d77c010b8052",
+      "bytes": 2956
+    },
+    "red_team_prompts.md": {
+      "sha256": "e97ac8142e4d75c8eba74f7c3d2342cbc7f0eee58e52851f81d13808f1392b4e",
+      "bytes": 4444
+    },
+    "run_tests.py": {
+      "sha256": "aef8d0eb0e0def13a5310cf124ff5b1e5b54b2037185050b3f2e2874bbf18dff",
+      "bytes": 11789
+    },
+    "source_register.csv": {
+      "sha256": "dc829c04273869298d41b04e076a49733bc14a5120b9ebd3ff130b8a3963c78a",
+      "bytes": 1585
+    }
+  }
+}

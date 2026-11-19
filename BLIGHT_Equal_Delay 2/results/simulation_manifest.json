@@ -1,0 +1,102 @@
+{
+  "experiment_id": "BLIGHT-SENS-EQUAL-DELAY-20261119",
+  "execution_type": "actual Python execution, synthetic development fixtures",
+  "analysis": "Matched-seed sensitivity of A vs B, equal deployment delays",
+  "original_source_file": "src/blight.py in original BLIGHT_Executed_Sandbox_Complete.zip",
+  "original_source_sha256": "8b2a7de18601f7665d5cc5f2d8db7c0fdfb632f9c8b5f13aa6ec99d65b96957b",
+  "sensitivity_driver_sha256": "c8bf2d23c67c10f56b76bef977e52b6d64daa2c62e6cc757548031705e63b256",
+  "python_version": "3.13.5",
+  "standard_library_only": true,
+  "scenario_parameters": {
+    "S1": {
+      "weekly_flood_p": 0.035,
+      "heat_factor": 0.9,
+      "severity": 0.88
+    },
+    "S2": {
+      "weekly_flood_p": 0.055,
+      "heat_factor": 1.05,
+      "severity": 1.0
+    },
+    "S3": {
+      "weekly_flood_p": 0.075,
+      "heat_factor": 1.2,
+      "severity": 1.18
+    },
+    "S4": {
+      "weekly_flood_p": 0.1,
+      "heat_factor": 1.4,
+      "severity": 1.38
+    }
+  },
+  "baseline_policy_A": {
+    "name": "Immediate donated shelter",
+    "shelter_cost": 2400,
+    "public_share": 0.8,
+    "flood_protection": 0.22,
+    "heat_protection": 0.2,
+    "maintenance_rate": 0.014,
+    "retrofit_cost": 3100,
+    "retrofit_gain": 0.3,
+    "install_delay": 1
+  },
+  "baseline_policy_B": {
+    "name": "Climate-adaptive reconstruction",
+    "shelter_cost": 5000,
+    "public_share": 0.65,
+    "flood_protection": 0.69,
+    "heat_protection": 0.68,
+    "maintenance_rate": 0.008,
+    "retrofit_cost": 1200,
+    "retrofit_gain": 0.14,
+    "install_delay": 3
+  },
+  "intervention": "Set ONLY B.install_delay=1 (baseline 3), matching A.install_delay=1. All costs, subsidies, material protection, maintenance, retrofit assumptions unchanged.",
+  "policy_B_equalized": {
+    "name": "Climate-adaptive reconstruction",
+    "shelter_cost": 5000,
+    "public_share": 0.65,
+    "flood_protection": 0.69,
+    "heat_protection": 0.68,
+    "maintenance_rate": 0.008,
+    "retrofit_cost": 1200,
+    "retrofit_gain": 0.14,
+    "install_delay": 1
+  },
+  "seeds": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "weeks": 52,
+  "shock_week": 27,
+  "actors_per_run": 600,
+  "households_per_run": 360,
+  "runs_executed": 64,
+  "baseline_A_controls_replayed": 32,
+  "equal_delay_B_runs": 32,
+  "matched_randomness": "household traits, acceptance random draws, initial institution states and hazards use matching scenario-seed PRNG functions",
+  "outcome": "mean_weekly_welfare (synthetic welfare index; average over 360 households and 52 weeks)",
+  "interpretation": "Conditional synthetic model comparison; no calibrated Aceh claims or operational recommendations",
+  "run_id_collision_note": "Sensitivity reuses simulator-generated B run_id labels; distinguish by experiment_id and output folder, never merge with baseline raw traces without design label.",
+  "rri_not_used": "Earlier RRI prototype double-counts displacement; excluded from this sensitivity experiment.",
+  "files": {
+    "baseline_csv_sha256": "877486fee63d975757d477f5ded5c9e3b18f0867d140c6dd34d6da3b6bb69ac3",
+    "seed_level_welfare_sha256": "b81a7ecbbacec20513bc0000e6e2a8a7539ec8ce678f836ddaa335ca88620c9a"
+  },
+  "complete_individual_actor_trace": {
+    "agent_id": "HH-0001",
+    "scenario": "S2",
+    "seed": 1,
+    "baseline_A_trace_events": 52,
+    "equal_delay_B_trace_events": 52,
+    "trace_file": "results/complete_HH_0001_decision_trace.csv",
+    "baseline_A_source_trace_sha256": "68bcd6bb23f773533db3076a1438a8d78e387bfb41d4179f4e3da55674f6009b",
+    "equal_delay_B_source_trace_sha256": "8210fb778f2b67db582481288b0d47056955880d71d3c362bff0549d2cb91695"
+  }
+}

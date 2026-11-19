@@ -1,0 +1,7 @@
+{"sequence": 1, "actor_id": "BR-03", "stage": "task_route", "decision": "ACCEPT_SANDBOX_CASE", "input_id": "ACEH-PREFAB-001", "policy_version": "BRAIN-POLICY-1.0.0"}
+{"sequence": 2, "actor_id": "BR-05", "stage": "jurisdiction", "decision": "RESOLVE", "country": "Indonesia", "district": "Banda Aceh", "policy_version": "BRAIN-POLICY-1.0.0"}
+{"sequence": 3, "actor_id": "BR-07", "stage": "status_and_scope", "decision": "TWO_ADMIT_TWO_EXCLUDE", "admitted": ["ID-PP-16-2021", "ID-SNI-1726-2019"], "excluded": ["ID-PP-36-2005", "ID-ACEH-TENGAH-Q9-2015"], "policy_version": "BRAIN-POLICY-1.0.0"}
+{"sequence": 4, "actor_id": "BR-11", "stage": "citation_readiness", "decision": "METADATA_ONLY", "full_text_verified": false, "policy_version": "BRAIN-POLICY-1.0.0"}
+{"sequence": 5, "actor_id": "BR-27", "stage": "protected_action", "decision": "DENY", "reason": "HUMAN_AUTHORITY_REQUIRED", "policy_version": "BRAIN-POLICY-1.0.0"}
+{"sequence": 6, "actor_id": "BR-04", "stage": "brief", "decision": "NOT_ESTABLISHED", "missing_count": 4, "policy_version": "BRAIN-POLICY-1.0.0"}
+{"sequence": 7, "actor_id": "BR-31", "stage": "reproducibility", "decision": "MANIFEST_WRITTEN", "run_id": "BRAIN-FIXTURE-ACEH-001", "policy_version": "BRAIN-POLICY-1.0.0"}

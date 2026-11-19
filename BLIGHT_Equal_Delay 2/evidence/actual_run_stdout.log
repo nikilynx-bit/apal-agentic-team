@@ -1,0 +1,69 @@
+S1 seed=1 original gap=-2.43047 equal-delay gap=-0.80411
+S1 seed=2 original gap=-2.29826 equal-delay gap=-0.95632
+S1 seed=3 original gap=-2.63649 equal-delay gap=-0.88779
+S1 seed=4 original gap=-2.21400 equal-delay gap=-0.52606
+S1 seed=5 original gap=-2.21049 equal-delay gap=-0.65348
+S1 seed=6 original gap=-2.18554 equal-delay gap=-0.85061
+S1 seed=7 original gap=-2.22364 equal-delay gap=-0.53807
+S1 seed=8 original gap=-2.43049 equal-delay gap=-0.51737
+S2 seed=1 original gap=-2.25017 equal-delay gap=-0.62381
+S2 seed=2 original gap=-2.19317 equal-delay gap=-0.85124
+S2 seed=3 original gap=-2.46037 equal-delay gap=-0.71167
+S2 seed=4 original gap=-2.12778 equal-delay gap=-0.43984
+S2 seed=5 original gap=-2.17241 equal-delay gap=-0.61540
+S2 seed=6 original gap=-2.10411 equal-delay gap=-0.76918
+S2 seed=7 original gap=-2.14006 equal-delay gap=-0.45448
+S2 seed=8 original gap=-2.36844 equal-delay gap=-0.45532
+S3 seed=1 original gap=-2.20279 equal-delay gap=-0.57650
+S3 seed=2 original gap=-1.97006 equal-delay gap=-0.62890
+S3 seed=3 original gap=-2.31594 equal-delay gap=-0.56727
+S3 seed=4 original gap=-1.91532 equal-delay gap=-0.24793
+S3 seed=5 original gap=-1.91052 equal-delay gap=-0.35481
+S3 seed=6 original gap=-1.99170 equal-delay gap=-0.65715
+S3 seed=7 original gap=-1.76655 equal-delay gap=-0.08140
+S3 seed=8 original gap=-1.97166 equal-delay gap=-0.05912
+S4 seed=1 original gap=-2.00035 equal-delay gap=-0.43368
+S4 seed=2 original gap=-1.72424 equal-delay gap=-0.41764
+S4 seed=3 original gap=-1.78615 equal-delay gap=-0.07131
+S4 seed=4 original gap=-1.28885 equal-delay gap=+0.35622
+S4 seed=5 original gap=-1.42955 equal-delay gap=+0.09337
+S4 seed=6 original gap=-1.74628 equal-delay gap=-0.43457
+S4 seed=7 original gap=-1.37181 equal-delay gap=+0.31112
+S4 seed=8 original gap=-1.22518 equal-delay gap=+0.65588
+ALL RUNS COMPLETE [
+  {
+    "scenario_id": "S1",
+    "baseline_B_minus_A_mean": -2.328673,
+    "equal_delay_B_minus_A_mean": -0.716727,
+    "change_in_gap_due_to_equal_delay_mean": 1.611946,
+    "equal_delay_B_higher_count": 0
+  },
+  {
+    "scenario_id": "S2",
+    "baseline_B_minus_A_mean": -2.227063,
+    "equal_delay_B_minus_A_mean": -0.615117,
+    "change_in_gap_due_to_equal_delay_mean": 1.611946,
+    "equal_delay_B_higher_count": 0
+  },
+  {
+    "scenario_id": "S3",
+    "baseline_B_minus_A_mean": -2.005567,
+    "equal_delay_B_minus_A_mean": -0.396634,
+    "change_in_gap_due_to_equal_delay_mean": 1.608933,
+    "equal_delay_B_higher_count": 0
+  },
+  {
+    "scenario_id": "S4",
+    "baseline_B_minus_A_mean": -1.571551,
+    "equal_delay_B_minus_A_mean": 0.007424,
+    "change_in_gap_due_to_equal_delay_mean": 1.578974,
+    "equal_delay_B_higher_count": 4
+  },
+  {
+    "scenario_id": "ALL",
+    "baseline_B_minus_A_mean": -2.033213,
+    "equal_delay_B_minus_A_mean": -0.430263,
+    "change_in_gap_due_to_equal_delay_mean": 1.60295,
+    "equal_delay_B_higher_count": 4
+  }
+]

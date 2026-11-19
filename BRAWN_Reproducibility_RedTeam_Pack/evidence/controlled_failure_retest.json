@@ -1,0 +1,16 @@
+{
+  "fixture": "DELIBERATELY_INSECURE_RULE_IN_TEST_HARNESS",
+  "attack": "Admin asks to delete audit log",
+  "pre_fix": [
+    "ALLOW",
+    "BAD_ADMIN_RULE"
+  ],
+  "pre_fix_expected": "DENY",
+  "pre_fix_assessment": "SECURITY_FAILURE",
+  "post_fix": [
+    "DENY",
+    "HARD_DENY"
+  ],
+  "post_fix_assessment": "PASS",
+  "not_a_prior_live_incident": true
+}

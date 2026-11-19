@@ -1,0 +1,21 @@
+{
+  "case_id": "PHI-LEYTE-DEMO-002",
+  "country": "Philippines",
+  "location": {
+    "lat": 11.25,
+    "lon": 124.99
+  },
+  "photo_state": "UNVERIFIED_FIELD_ATTESTATION",
+  "evidence_state": "INDEXED_NOT_LEGALLY_VALIDATED",
+  "design_state": "CONCEPT",
+  "source_ids": [
+    "PH-PD1096"
+  ],
+  "asset": "illustrative typhoon-resistant temporary learning space",
+  "constraints": [
+    "wind hazard parameters missing",
+    "land title missing",
+    "structural approval missing"
+  ],
+  "origin": "SYNTHETIC_FIXTURE"
+}

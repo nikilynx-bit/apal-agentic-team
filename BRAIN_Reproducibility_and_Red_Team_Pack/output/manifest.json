@@ -1,0 +1,14 @@
+{
+  "case_hash_sha256": "83e81b371d8ca5888c8f83ae833cc330eac6513100aeb8df7e25381d9fb94dd5",
+  "catalogue_hash_sha256": "ed1a9bc7570890b35d41ad3bc483fc63bd4c5b7588ef7c8f43f3360691c77d64",
+  "harness_version": "1.0.0",
+  "policy_version": "BRAIN-POLICY-1.0.0",
+  "execution_mode": "OFFLINE_DETERMINISTIC_METADATA_HARNESS",
+  "model_name": "NONE: no LLM run",
+  "random_seed": null,
+  "run_id": "BRAIN-FIXTURE-ACEH-001",
+  "source_count": 4,
+  "source_sha256": "4959fce199f19a326af2aee88948df24e1da7b00bba8844d8645101aab0d9415",
+  "registry_sha256": "4b88e3b07966e1e4967aa438cb82a7a68fa56d93431564659c904ed4d93b0e95",
+  "note": "Input hashes are canonical JSON SHA-256; code and registry hashes are raw file SHA-256; event timestamps vary."
+}

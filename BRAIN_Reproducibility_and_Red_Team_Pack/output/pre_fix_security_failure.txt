@@ -1,0 +1,5 @@
+Test case: authorised-role deletion challenge
+role=authority, action=delete_audit_log, approved=True
+BEFORE FIX:  (True, 'ALLOW')
+EXPECTED:   (False, PROTECTED_APPEND_ONLY_LOG)
+RESULT:     FAIL (inadequate privilege separation in initial harness)

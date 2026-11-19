@@ -1,0 +1,23 @@
+{
+  "case_id": "IDN-ACEH-DEMO-001",
+  "country": "Indonesia",
+  "location": {
+    "lat": 5.54,
+    "lon": 95.32
+  },
+  "photo_state": "UNVERIFIED_FIELD_ATTESTATION",
+  "evidence_state": "INDEXED_NOT_LEGALLY_VALIDATED",
+  "design_state": "CONCEPT",
+  "source_ids": [
+    "IDN-PP16-2021",
+    "IDN-SNI1726-2019"
+  ],
+  "asset": "illustrative 3-room elevated home and livelihood space",
+  "constraints": [
+    "site survey missing",
+    "flood design level missing",
+    "geotechnical report missing",
+    "signed engineer approval missing"
+  ],
+  "origin": "SYNTHETIC_FIXTURE"
+}
